@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Counter App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="counter-card">
+            <h1>My Counter App</h1>
+            <p class="subtitle">Count anything, one click at a time!</p>
+            <div class="counter-display">
+              <span id="count">0</span>
+            </div>
+            <div class="buttons">
+                <button class="increase" onclick="increaseCount()">
+                    + Increase
+                </button>
+                <button class="decrease" onclick="decreaseCount()">
+                    - Decrease
+                </button>
+                <button class="reset" onclick="resetCount()">
+                    ↻ Reset
+                </button>
+                <button class="increase-five" onclick="increaseByFive()">
+                    +5 Add Five
+                </button>
+            </div>
+            <p class="message" id="message">Your counter is at zero.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
